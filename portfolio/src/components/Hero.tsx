@@ -3,15 +3,19 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col flex-1 md:flex-row justify-between items-center my-10 mx-20'>
-      
+    <div className='flex m-10 flex-col  md:flex-row justify-between items-center gap-16 '>
+      <div className='md:hidden w-full h-full shadow-xl'>
+        <Image src='/barbra.png' width={500} height={500} alt="hh"  />
+      </div>
       <div>
-        <h1 className='text-2xl lg:text-3xl'> I am an accomplished copywriter who focuses on accounting, sales and 
-        customer service industries and i will convert your cold leads into sales through the magic of word art. </h1>
+        <h1 className='text-2xl lg:text-3xl mb-20'>I am an accomplished copywriter who focuses in accounting, sales and 
+        customer service industries </h1>
+        <div className='border-4 border-gray-500 '></div>
       </div>
-      <div className='w-full h-full'>
-        <Image src='/barbra.png' width={400} height={400} alt="hh"  />
+      <div className='max-md:hidden w-full h-full'>
+        <Image src='/barbra.png' width={500} height={500} alt="hh"  />
       </div>
+      
     </div>
   )
 }
