@@ -9,32 +9,27 @@ const Services = () => {
         Key Services</h1>
     </div>
 
-    <div className='mx-10 my-8 flex flex-col md:flex-row gap-5'>
-        <div className='w-full h-full'>
-          <Image src='/projects1.jpg' width={400} height={500} alt="hh"  />
-        <h1 className= "text-2xl md:text-3xl my-4">Social Media Copy</h1>
-        <p className="text-gray-400 text-lg">Social media is at the forefront of every brand. As a copywriter, Let's transform 
-          your brand into a social media sensation! I will craft content that grabs attention, 
-          sparks conversations, and drives results. </p> 
-      </div>
-      
-        <div className='w-full h-full'>
-          <Image src='/projects2.jpg' width={400} height={500} alt="hh"  />
-        <h1 className= "text-2xl md:text-3xl my-4">Blog Copy</h1>
-        <p className="text-gray-400 text-lg">Are you ready to take your blog to the next level? i will write stories that
-           captivate your audience, boost your online presence, and drive results with engaging, 
-           SEO-optimized content.
-           </p> 
-      </div>
-
-      
-        <div className='w-full h-full'>
-          <Image src='/projects3.jpg' width={400} height={500} alt="hh"  />
+    <div className='mx-10 my-8 flex flex-col md:flex-row gap-20'>
+      <div className=''>
+          <Image src='/projects3.jpg' width={500} height={500} alt="hh"  />
         <h1 className= "text-2xl md:text-3xl my-4">Email Marketing</h1>
-        <p className="text-gray-400 text-lg">Are your email campaigns leaving you longing for more opens, clicks, and conversions?
+        <p className="text-gray-400 text-lg flex-justify-center lg:pr-12">Are your email campaigns leaving you longing for more opens, clicks, and conversions?
            Look no further! I specialize in crafting compelling, attention-grabbing email copy that
             gets results. </p> 
       </div>
+
+      
+        <div className=''>
+          
+            <Image src='/projects2.jpg' width={500} height={500} alt="hh" />
+            <h1 className= "text-2xl md:text-3xl my-4">Sales Letters</h1>
+            <p className="text-gray-400 text-lg lg:pr-12">Are you ready to take your business to the next level? 
+            You can easily do this with sales letters. As your copywritter I will write letters that captivate your 
+            intended clientele hence driving more sales.</p>   
+      </div>
+
+      
+        
     </div>
   </div>
   )
