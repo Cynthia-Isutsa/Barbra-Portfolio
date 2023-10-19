@@ -4,13 +4,7 @@
 
 @layer base{
   body{
-    color: #FFFDD0;
+    color: #B9B9B9;
     background-color:#010101;
-  }
-}
-
-@layer components{
-  .menuLink{
-    @apply cursor-pointer hover:text-[#c5c5c5] hover:scale-110 transition-all duration-300 ease-in-out
   }
 }
