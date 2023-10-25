@@ -1,8 +1,7 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
-import Image from 'next/image'
-import about from '../../../public/about.jpg'
-import about2 from '../../../public/about2.jpg'
+import {BiLogoTelegram} from 'react-icons/bi'
+import {AiOutlineInstagram, AiFillLinkedin, AiFillTwitterSquare, AiOutlineWhatsApp} from 'react-icons/ai'
 import Link from 'next/link'
 
 const pages = () => {
@@ -10,7 +9,7 @@ const pages = () => {
     <div>
       <Navbar />
       
-      <div className='flex flex-col lg:flex-row justify-center items-center mt-20 md:mx-72 max-md:mx-8'>
+      <div className='flex flex-col lg:flex-row justify-center items-center mt-20 lg:mx-72 max-lg:mx-8'>
         <div className='flex-1'>
         <h1 className='md:text-4xl text-3xl font-semibold text-center'>Would you like me to personally hand you YOUR million dollar blueprint, which is the key to double, triple or even quadruple your profits, for FREE?</h1>
           <p className='text-xl mt-10'>Hello Frieeeeeend,</p>
@@ -28,7 +27,7 @@ const pages = () => {
       </div>
 
     <div  className='bg-gray-900 py-6 mt-10 '>
-      <div className='md:mx-72 max-md:mx-8'>
+      <div className='lg:mx-72 max-lg:mx-8'>
         <p className='text-xl'>To begin with, I am a sucker for letters, fiction, romance and british accents. </p> 
          <p className='text-xl my-3 italic'>(Does the Klaus Mikaelson comment deserve a mention? 
           Why, yes please. I am obsessed with the TVD villain!)</p>
@@ -43,7 +42,7 @@ const pages = () => {
        </div>
     </div>
 
-    <div className='md:mx-72 max-md:mx-8 mt-10'>
+    <div className='lg:mx-72 max-lg:mx-8 mt-10'>
       <p className='text-xl'>Moreover, you can leave the heavy lifting to me. I'll guide you step by step on crafting the perfect message, 
       positioning your offer just right, and ensuring the money flows in effortlessly.</p>
       <p className='text-xl my-3 text-[#00c9c8]'>After we are done with the initial phase, two things will happen:</p>
@@ -58,7 +57,7 @@ const pages = () => {
     </div>
     
     <div className='bg-gray-900 mt-10 py-6'>
-      <div className='md:mx-72 max-md:mx-8 '>
+      <div className='lg:mx-72 max-lg:mx-8 '>
         <p className='text-xl'>This is a promise. You desire results. I know that, like the back of my hand. 
         And i respect that. So i give you the assurance that you will get results. Every single one of my clients does.</p>
         <p className='text-xl my-3 text-[#00c9c8]'>Every. Single. One. </p>
@@ -73,7 +72,7 @@ const pages = () => {
       </div>
     </div>
 
-    <div className='md:mx-72 max-md:mx-8 mt-10'>
+    <div className='lg:mx-72 max-lg:mx-8 mt-10'>
       <h1 className='text-2xl font-semibold'>And here is how it will work:</h1>
       <p className='text-xl my-3'>1.	We will hop onto a discovery call (after setting an appointment in advance) and 
         one on one review your business. I will understand what you have, where you are at, what you do, some details 
@@ -84,7 +83,7 @@ const pages = () => {
     </div>
 
     <div className='bg-gray-900 mt-10 py-6'>
-      <div className='md:mx-72 max-md:mx-8 '>
+      <div className='lg:mx-72 max-lg:mx-8 '>
         <p className='text-xl my-3'>I know what you are thinking right now-why is she offering this? </p>
         <p className='text-xl text-[#00c9c8]'>Two reasons: </p>
         <p className='text-xl my-3 text-center'><span className='font-bold'>ONE-</span> I enjoy it!I love writing and selling. It is what i do best 
@@ -98,7 +97,7 @@ const pages = () => {
       </div>
     </div>
 
-    <div className='md:mx-72 max-md:mx-8 mt-10'>
+    <div className='lg:mx-72 max-lg:mx-8 mt-10'>
       <h1 className='text-2xl text-[#00c9c8] italic text-center'>Why!!!</h1>
       <p className='text-xl my-3'>Here's my unwavering commitment to you:  </p>
         <p className='text-xl'>•	I guarantee to double, triple, or even quadruple your profits from the get-go.</p>
@@ -113,7 +112,7 @@ const pages = () => {
     </div>
 
     <div className='bg-gray-900 mt-10 py-6'>
-      <div className='md:mx-72 max-md:mx-8 '>
+      <div className='lg:mx-72 max-lg:mx-8 '>
         <p className='text-xl my-3'>I respect your boundaries. <Link href='/' className='font-semibold underline'>You can however subscribe
          to my newsletter to keep getting doses of valuable information, again for FREE!</Link> </p>
         <p className='text-xl'>Obviously, this sounds like an amazing offer, which you probably will never see from any other writing or marketing “gurus”. </p>
@@ -126,7 +125,7 @@ const pages = () => {
       </div>
     </div>
   
-    <div className='md:mx-72 max-md:mx-8 mt-10'>   
+    <div className='lg:mx-72 max-lg:mx-8 mt-10'>   
           < h1 className='text-2xl text-[#00c9c8] text-center font-semibold'>Who else does this, you ask?  </h1>
           <h1 className='text-xl my-3'>The answer, just like the rest, is simple!</h1>
           <p className='text-xl font-semibold '>No ONE.</p>
@@ -144,29 +143,96 @@ const pages = () => {
              an impressive 20% conversion rate week after week. This is a record that remains unmatched to this day.</p>
       </div>
 
-      
-    
-
-    <div className='lg:mx-52 mx-10 mt-6'>
-      <h1 className='md:text-3xl text-2xl text-[#00c9c8] text-center'>THIS OFFER IS NOT FOR EVERYONE:</h1>
-      <h1 className='md:text-3xl text-2xl text-[#00c9c8] text-center'>HERE IS WHOM I CAN HELP</h1>
-      <p className='text-2xl my-2'>1.	You have a business. </p>
-        <p className='text-2xl'>•	I guarantee to double, triple, or even quadruple your profits from the get-go.</p>
-        <p className='text-2xl my-2'>•	And when we continue our collaboration over the next six months, I'm more than confident that we can double your profits. </p>
-        <p className='text-2xl'>•	I aim to do so with minimal investment on your part.  </p>
-        <p className='text-2xl my-2'>Actually, i can give you a plan to make more than $800 during our first conversation-   </p>  
-      <p className='text-3xl text-[#00c9c8] mb-5 italic'>For Free!!!</p>
+    <div className='bg-gray-900 mt-10 py-6'>
+      <div className='lg:mx-72 max-lg:mx-8 '>
+      <p className='text-xl font-semibold'>As you can imagine, a lot of interest will be generated from this letter. </p>
+      <p className='text-xl font-semibold my-3'>Which is why the next part is very important;</p>
+      <p className='text-xl font-semibold'>Read it carefully</p>
+      <h1 className='md:text-2xl text-xl my-3 font-semibold text-[#00c9c8] text-center'>THIS OFFER IS NOT FOR EVERYONE:</h1>
+      <h1 className='md:text-2xl text-xl font-semibold  text-[#00c9c8] text-center'>HERE IS WHOM I CAN HELP</h1>
+      <p className='text-xl my-3 font-semibold'>1.	You have a business. </p>
+        <p className='text-xl'>Whether a start up, or solid already, you are set up in your industry. You are up and running and your need is to build on your foundation. </p>
+        <p className='text-xl my-3 font-semibold'><span className='text-[#00c9c8]'>N/B: </span>I am not working with get rich quick people; so I expect no shenanigans, no clowning. </p>
+        <p className='text-xl font-semibold'>2.	You already own a steady flow of customers. i.e you are already making stuff, and selling. You are very present and recognizable in your industry.   </p>
+        <p className='text-xl my-3 font-semibold'>3.	Have a list.  </p>  
+        <p className='text-xl'>I didn’t say long…. I said list. It doesn’t matter the size. Just have a solid number of people who have engaged you in your business.  </p>
+        <p className='text-xl my-3 font-semibold'>4.	A good product- you’re product exists, is solid and reputable. We can only get your act together if you are trustworthy and own a legit business.   </p>  
+        <p className='text-xl font-semibold'>5.	Must follow directions.  </p>  
+        <p className='text-xl my-3'>In this, i mean during implementation. For us to work together, you have to trust me. Therefore you have to follow the set strategy to the latter
+           to get immediate results.</p>
+      <p className='text-xl mb-5 italic'>(don’t worry, i won’t be asking you to do anything weird)</p>
+      <p className='text-xl my-3'>That’s it.</p>  
     </div>
+    </div>
+
+    <div className='lg:mx-72 max-lg:mx-8 mt-10'>   
+          < h1 className='text-3xl text-[#00c9c8] text-center font-semibold'>Okay, now what next? </h1>
+          <h1 className='text-xl my-3'>If you meet the above, and you want to get results as much as I want you to,
+           I will happily set aside some time, out of my busy schedule for you. </h1>
+          <p className='text-xl'>We can start talking about getting amazing results, only if you are all 
+          for it. You know what, i will go ahead and let you know that you are going to look fierce fabulous while doing 
+          it. </p>
+          <p className='text-xl my-3'>On the onset, you will fill out an application form. </p>
+          <p className='text-xl'>Again, not to worry dear friend. It is nothing complicated.  </p> 
+          <p className='text-xl my-3'>It is just something special to help me understand you better, on the basis of your business.  </p>
+          <p className='text-xl'>I will ask for a “real person” pledge of <span className='text-bold text-[#00c9c8]'>$50.</span></p>
+          <p className='text-xl my-3'> Don’t worry, I could not give a tinker’s damn about it.</p>
+          <p className='text-xl'>It is just a means to separate the chaff from the grain.  </p> 
+          <p className='text-xl my-3'>I will refund it, send it back to you as soon as we hang up on the discovery call. </p>
+          <p className='text-xl'>UNLESS, YOU DECIDE TO JOIN THE WAVOMBA RITES COMMUNITY. </p>
+          <p className='text-xl my-3'>Then it will be applied to your balance. </p>
+      </div>
+
+      <div className='bg-gray-900 mt-10 py-6'>
+      <div className='lg:mx-72 max-lg:mx-8 '>
+      <p className='text-3xl text-center text-[#00c9c8] font-semibold'>After that, here is the final stage of what will happen.  </p>
+      <p className='text-xl my-3'>After confirmation of the deposit, you will receive a call or email, FROM ME, <span className='italic font-bold'>(I ain’t got an assistant. Yet) </span> 
+      and we will set up a time for us to talk soonest, in 48 hours or less. </p>
+      <p className='text-xl'>Our initial call should last up to about 20-45 minutes, depending on your 
+      overall picture and how we can paint it. </p>
+      <p className='text-xl my-3'>I will take another 48 hours to painstakingly review, update and come up with an email and sales page multi-million dollar 
+      winning strategy to start bringing in money immediately. </p>
+        <p className='text-xl'> If you see value, and want to become a part of the RITERS community, like I said, 
+        we will take this opportunity to talk about it. </p>
+        <p className='text-xl my-3'>If you don’t want it, it’s okay too! I will refund you and we will hang 
+        up. NO BIGGIE.</p>
+        <p className='text-xl'>So, it is literally impossible to lose.  </p>
+        <p className='text-xl font-semibold my-3'>WARNING!!!: This is a limited time offer. </p>
+        <div className='flex flex-row justify-between items-center'>
+          <p className='text-[20px] my-3 font-semibold text-[#00c8c9]'>IF THIS SOUNDS LIKE SOMETHING YOU DESIRE? LEAVE AN APPLICATION HERE </p>
+          <a href='/Contact' ><BiLogoTelegram size={33} className='fill-white/80' /> </a>
+        </div>
+    </div>
+    </div>
+
+    <div className='lg:mx-72 max-lg:mx-8 my-10 text-center'> 
+    <h1 className='text-4xl max-md:text-3xl text-center py-4 font-bold' >You aim to drive leads into Sales using the copywriting strategy?</h1>
+          <p className='text-center text-xl pb-4'>Get a hand-picked series of WAVOMBA'S best tips to get your business on track</p>
+          <p className='text-center text-xl pb-4'>Subscribe to my Newsletter, Join the 7,000+ subscribers who get free updates.</p>
+          <div className='flex flex-col justify-center items-center'>
+              <input type="text" placeholder='Enter Your Email Address' className='py-2 pl-2 lg:pr-[300px] md:pr-[200px] pr-[150px] bg-gray-300' />
+            <button className='bg-[#00c9c8] my-3 text-black py-2 px-5 text-xl font-bold'>Sign Me Up!</button>
+            <p className='text-xl'>No spam. Easily unsubscribe anytime.</p>
+          </div>
+      </div>
+
     
     <div className='bg-gray-900 py-8'>
         <div className='lg:mx-52 mx-10'>
-        <p className=' text-2xl md:text-4xl mb-2 text-center'>Wanna learn more </p>
-        <p className='text-2xl text-center'>Subscribe to my Newsletter, 
-        Join the 7,000+ subscribers who get free updates. </p>
-          <div className='flex justify-center items-center mt-3' >
-          <button className='bg-[#00c9c8] text-xl text-black font-semibold px-4 py-1'><a href='/'>Yes! Sign Me Up!!</a></button>  
+          <div className='flex justify-between items-center mb-8'>
+            <div className='flex justify-between items-center'>
+              <p className=' text-xl font-semibold mr-8'> QUESTIONS</p>
+              <p className='text-xl font-semibold'>CONTACT</p>
+            </div>
+            <div className='flex gap-5 pl-4'>
+              <a href='/'><AiFillTwitterSquare size={27} className="fill-[#00c8c9]"/></a>
+              <a href='/'><AiOutlineInstagram size={27} className="fill-[#00c8c9]"/></a>
+              <a href='/'><AiFillLinkedin size={27} className="fill-[#00c8c9]"/></a>
+              <a href='/'><AiOutlineWhatsApp size={27} className="fill-[#00c8c9]"/></a>
+            </div>
+            
           </div>
-        <div className='border-2 border-gray-200 mt-5'></div>
+        <div className='border-b-[1px] border-gray-200 mt-5'></div>
         <p className='text-sm text-center mt-6'>© 2021 <span className='text-white'> Wavomba Rites</span>. Built by <span className='text-white'>Cynthia Isutsa</span></p>
       </div>
     </div>

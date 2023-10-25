@@ -14,15 +14,15 @@ const Contact = () => {
         
           <label className='text-left text-lg'>Name**</label>
           <input type='text' name='name' placeholder='Your Name' 
-          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] py-3 my-2" />
+          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] pr-[150px] py-3 my-2" />
 
           <label className='text-left text-lg mt-5'>Email**</label>
           <input type='email' name='email' placeholder='Your Email' 
-          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] py-3 my-2" />
+          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] pr-[150px] py-3 my-2" />
           
           <label className='text-left text-lg mt-5'>Message**</label>
           <textarea placeholder='Start typing your message here....' name='message' rows={6}  
-          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] py-3 my-2"/>
+          className="border-hidden outline-none bg-gray-300 pl-2 md:pr-[400px] pr-[150px] py-3 my-2"/>
         
           <div className=' flex flex-col justify-center items-center'>
             <button value='button' p-3 className='bg-[#00C9C8] text-black mt-6 mb-6 px-8 py-2 font-semibold text-lg text-center cursor-pointer hover:scale-110 ease-in duration-200'> Send Message</button>
