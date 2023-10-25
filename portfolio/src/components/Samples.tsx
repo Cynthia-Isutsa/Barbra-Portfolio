@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Services = () => {
+const Samples = () => {
   return (
   <div className='flex flex-col'>
      <div className='bg-[#1C1C1C] max-lg:h-[110px] h-[220px] rounded-sm'>
@@ -35,4 +35,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Samples

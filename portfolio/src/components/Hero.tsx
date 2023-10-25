@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Barbra from '../../public/Barbra.png'
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
         <div className='border-b-[1px] border-gray-500 '></div>
       </div>
       <div className='max-lg:hidden w-full h-full'>
-        <Image src='/barbra.png' width={500} height={500} alt="hh"  />
+        <Image src={Barbra} width={500} height={500} alt="hh" priority={true}  />
       </div>
       
     </div>

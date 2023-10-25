@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const Porfolio = () => {
+const Projects = () => {
   return (
     <div>
         <div className='bg-[#1C1C1C] max-lg:h-[110px] h-[220px] rounded-sm'>
@@ -36,4 +36,4 @@ const Porfolio = () => {
   )
 }
 
-export default Porfolio
+export default Projects
