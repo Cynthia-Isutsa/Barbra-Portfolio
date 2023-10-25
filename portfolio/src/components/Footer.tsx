@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineInstagram, AiFillLinkedin, AiFillTwitterSquare, AiOutlineWhatsApp} from 'react-icons/ai'
+import {AiFillFacebook, AiFillLinkedin, AiOutlineMedium, AiOutlineWhatsApp} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -18,15 +18,15 @@ const Footer = () => {
         <div className='lg:mx-52 mx-10'>
           <div className='flex justify-between items-center mb-8'>
             <div className='flex justify-between items-center'>
-              <p className=' text-xl font-semibold mr-8'> QUESTIONS</p>
-              <p className='text-xl font-semibold'>CONTACT</p>
+              <p className=' text-xl font-semibold mr-8 cursor-pointer hover:scale-110 transition duration-300 ease-out'><a href='/Contact'>QUESTIONS</a></p>
+              <p className='text-xl font-semibold cursor-pointer hover:scale-110 transition duration-300 ease-out'><a href='/Contact'>CONTACT</a></p>
             </div>
 
             <div className='flex gap-5 pl-4'>
-              <a href='/'><AiFillTwitterSquare size={27} className="fill-[#00c8c9]"/></a>
-              <a href='/'><AiOutlineInstagram size={27} className="fill-[#00c8c9]"/></a>
-              <a href='/'><AiFillLinkedin size={27} className="fill-[#00c8c9]"/></a>
-              <a href='/'><AiOutlineWhatsApp size={27} className="fill-[#00c8c9]"/></a>
+              <a href='/' target="_blank"><AiOutlineMedium size={27} className="fill-[#00c8c9] cursor-pointer hover:scale-110 transition duration-300 ease-out"/></a>
+              <a href='https://www.facebook.com/wavombamusavi?mibextid=ZbWKwL' target="_blank"><AiFillFacebook size={27} className="fill-[#00c8c9] cursor-pointer hover:scale-110 transition duration-300 ease-out"/></a>
+              <a href='https://www.linkedin.com/in/barbara-wavomba' target="_blank"><AiFillLinkedin size={27} className="fill-[#00c8c9] cursor-pointer hover:scale-110 transition duration-300 ease-out"/></a>
+              <a href='https://wa.me/+254719499880' target="_blank"><AiOutlineWhatsApp size={27} className="fill-[#00c8c9] cursor-pointer hover:scale-110 transition duration-300 ease-out"/></a>
             </div>
             
           </div>

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='flex mx-10 my-20 flex-col  lg:flex-row justify-between items-center gap-20 '>
       <div className='lg:hidden w-full h-full shadow-xl'>
-        <Image src='/barbra.png' width={500} height={500} alt="hh" className='w-full h-full'  />
+        <Image src={Barbra} width={500} height={500} alt="profile" priority={true} className='w-full h-full'  />
       </div>
       <div>
         <h1 className='text-2xl  my-6'>Would you like me to personally hand you 
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className='border-b-[1px] border-gray-500 '></div>
       </div>
       <div className='max-lg:hidden w-full h-full'>
-        <Image src={Barbra} width={500} height={500} alt="hh" priority={true}  />
+        <Image src={Barbra} width={500} height={500} alt="hh" priority={true}  className='w-full h-full'/>
       </div>
       
     </div>

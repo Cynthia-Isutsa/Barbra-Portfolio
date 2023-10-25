@@ -4,7 +4,6 @@ import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects'
 import Samples from '@/components/Samples'
 
-import Services from '@/components/Samples'
 
 export default function Home() {
   return (
